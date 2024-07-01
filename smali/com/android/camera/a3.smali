@@ -2622,7 +2622,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lub/c;->Tb()Z
+    invoke-virtual {v0}, Lub/c;->Ub()Z
 
     move-result v0
 
@@ -3713,7 +3713,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lub/c;->Nb()Z
+    invoke-virtual {v0}, Lub/c;->Ob()Z
 
     move-result v0
 
@@ -20505,7 +20505,7 @@
 .method public static p()I
     .locals 2
 
-    const-string v0, "5.1.001030.3"
+    const-string v0, "5.1.001120.8"
 
     :try_start_0
     const-string v1, "\\."
@@ -21450,7 +21450,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lub/c;->Rb()Z
+    invoke-virtual {p0}, Lub/c;->Sb()Z
 
     move-result p0
 

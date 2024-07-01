@@ -115,7 +115,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lub/c;->Vb()Z
+    invoke-virtual {p0}, Lub/c;->Wb()Z
 
     move-result p0
 

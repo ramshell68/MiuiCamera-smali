@@ -4,7 +4,7 @@
 
 
 # static fields
-.field public static final a:I = 0x44e52775
+.field public static final a:I = 0x123a0a88
 
 
 # direct methods

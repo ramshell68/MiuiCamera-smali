@@ -12,7 +12,7 @@
 
 .field public static final QIGSAW_MODE:Z = true
 
-.field public static final VERSION_NAME:Ljava/lang/String; = "5.1.001030.3"
+.field public static final VERSION_NAME:Ljava/lang/String; = "5.1.001120.8"
 
 
 # direct methods

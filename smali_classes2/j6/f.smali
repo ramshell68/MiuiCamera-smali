@@ -793,7 +793,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lub/c;->zb()Z
+    invoke-virtual {v4}, Lub/c;->Ab()Z
 
     move-result v4
 

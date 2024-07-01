@@ -546,13 +546,20 @@
 .method public static f(Landroid/content/Context;Landroid/net/Uri;)Z
     .locals 9
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    const/4 v0, 0x0
 
-    const/16 v1, 0x1e
+    if-eqz p0, :cond_4
 
-    const/4 v2, 0x0
+    if-nez p1, :cond_0
 
-    if-lt v0, v1, :cond_3
+    goto :goto_2
+
+    :cond_0
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v2, 0x1e
+
+    if-lt v1, v2, :cond_4
 
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
@@ -584,30 +591,30 @@
 
     move-result p1
 
-    if-eqz p1, :cond_1
+    if-eqz p1, :cond_2
 
-    invoke-interface {p0, v2}, Landroid/database/Cursor;->getInt(I)I
+    invoke-interface {p0, v0}, Landroid/database/Cursor;->getInt(I)I
 
     move-result p1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    const/4 v0, 0x1
+    const/4 v1, 0x1
 
-    if-ne p1, v0, :cond_0
+    if-ne p1, v1, :cond_1
 
     goto :goto_0
 
-    :cond_0
-    move v0, v2
+    :cond_1
+    move v1, v0
 
     :goto_0
     :try_start_2
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
 
-    return v0
+    return v1
 
-    :cond_1
+    :cond_2
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
@@ -617,7 +624,7 @@
     :catchall_0
     move-exception p1
 
-    if-eqz p0, :cond_2
+    if-eqz p0, :cond_3
 
     :try_start_3
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
@@ -632,14 +639,14 @@
     :try_start_4
     invoke-virtual {p1, p0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
-    :cond_2
+    :cond_3
     :goto_1
     throw p1
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_0
 
     :catch_0
-    :cond_3
+    :cond_4
     :goto_2
-    return v2
+    return v0
 .end method

@@ -223,7 +223,7 @@
 
     int-to-long v2, p2
 
-    const-wide v4, -0x3c5a37a36834ced9L    # -7.848031385787155E17
+    const-wide v4, -0x3c5a37a36834ced9L    # -7.8480313857871552E17
 
     mul-long/2addr v2, v4
 
@@ -825,7 +825,7 @@
 
     move-result-wide v2
 
-    const-wide v4, -0x3c5a37a36834ced9L    # -7.848031385787155E17
+    const-wide v4, -0x3c5a37a36834ced9L    # -7.8480313857871552E17
 
     mul-long/2addr v2, v4
 

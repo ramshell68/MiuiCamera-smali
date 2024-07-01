@@ -2242,7 +2242,7 @@
 
     if-eq v2, v9, :cond_9
 
-    const v10, 0x4d4d002a    # 2.1495875E8f
+    const v10, 0x4d4d002a    # 2.14958752E8f
 
     if-eq v2, v10, :cond_9
 

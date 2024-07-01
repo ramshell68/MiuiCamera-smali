@@ -33,7 +33,7 @@
     :goto_0
     const v1, 0x1b873593
 
-    const v2, -0x3361d2af    # -8.293031E7f
+    const v2, -0x3361d2af    # -8.2930312E7f
 
     if-ge p1, v0, :cond_0
 

@@ -398,7 +398,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lub/c;->ac()Z
+    invoke-virtual {v1}, Lub/c;->bc()Z
 
     move-result v1
 
@@ -2631,7 +2631,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lub/c;->Ib()Z
+    invoke-virtual {v1}, Lub/c;->Jb()Z
 
     move-result v1
 
@@ -3413,7 +3413,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lub/c;->ac()Z
+    invoke-virtual {v1}, Lub/c;->bc()Z
 
     move-result v1
 
@@ -3928,7 +3928,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lub/c;->ac()Z
+    invoke-virtual {v0}, Lub/c;->bc()Z
 
     move-result v0
 

@@ -74,7 +74,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lub/c;->Tb()Z
+    invoke-virtual {v5}, Lub/c;->Ub()Z
 
     move-result v5
 

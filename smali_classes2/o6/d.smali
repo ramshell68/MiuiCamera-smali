@@ -830,7 +830,7 @@
 
     move-result-object v16
 
-    invoke-virtual/range {v16 .. v16}, Lub/c;->xb()Z
+    invoke-virtual/range {v16 .. v16}, Lub/c;->yb()Z
 
     move-result v16
 
@@ -873,7 +873,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lub/c;->Kb()Z
+    invoke-virtual {v5}, Lub/c;->Lb()Z
 
     move-result v5
 
@@ -888,7 +888,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lub/c;->xb()Z
+    invoke-virtual {v5}, Lub/c;->yb()Z
 
     move-result v5
 
@@ -1276,7 +1276,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lub/c;->xb()Z
+    invoke-virtual {v2}, Lub/c;->yb()Z
 
     move-result v2
 

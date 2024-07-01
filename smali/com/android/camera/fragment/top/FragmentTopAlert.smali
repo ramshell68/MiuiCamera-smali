@@ -3873,7 +3873,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lub/c;->Tb()Z
+    invoke-virtual {v3}, Lub/c;->Ub()Z
 
     move-result v3
 

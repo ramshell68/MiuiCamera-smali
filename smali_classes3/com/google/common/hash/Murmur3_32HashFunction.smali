@@ -350,7 +350,7 @@
 .method private static mixK1(I)I
     .locals 1
 
-    const v0, -0x3361d2af    # -8.293031E7f
+    const v0, -0x3361d2af    # -8.2930312E7f
 
     mul-int/2addr p0, v0
 

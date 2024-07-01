@@ -283,7 +283,7 @@
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lub/c;->Sb()Z
+    invoke-virtual {p0}, Lub/c;->Tb()Z
 
     move-result p0
 

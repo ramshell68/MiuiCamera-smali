@@ -26,8 +26,6 @@
 
 
 # static fields
-.field public static final Aa:I = 0x4
-
 .field public static final oa:Ljava/lang/String; = "AmbilightModule"
 
 .field public static final pa:I = 0x258
@@ -50,7 +48,7 @@
 
 .field public static final ya:Ljava/lang/String; = "ambilight_parameter.xml"
 
-.field public static final za:Ljava/lang/String; = "mialgo_ambilight_ce623b7dd8f8f92ae690a9a38057e2b5.cache"
+.field public static final za:I = 0x4
 
 
 # instance fields
@@ -2210,7 +2208,7 @@
 .end method
 
 .method public final Ho()V
-    .locals 11
+    .locals 7
 
     iget-object v0, p0, Ld6/j0;->b:Le6/m;
 
@@ -2379,7 +2377,7 @@
 
     iget-object v1, p0, Ld6/k;->p8:Lcom/android/camera/ambilight/AmbilightEngine;
 
-    if-nez v1, :cond_4
+    if-nez v1, :cond_3
 
     const-string v1, "ro.product.mod_device"
 
@@ -2393,9 +2391,9 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    move-result v4
+    move-result v3
 
-    if-eqz v4, :cond_1
+    if-eqz v3, :cond_1
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
@@ -2408,9 +2406,19 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "deviceName: "
+    const-string v3, "ambilight"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-object v4, Ljava/io/File;->separator:Ljava/lang/String;
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "ambilight_parameter.xml"
 
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2418,138 +2426,31 @@
 
     move-result-object v2
 
-    new-array v4, v6, [Ljava/lang/Object;
+    invoke-static {}, Lcom/android/camera/CameraAppImpl;->i()Landroid/content/Context;
 
-    invoke-static {v3, v2, v4}, Lcom/android/camera/log/Log;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    move-result-object v5
+
+    invoke-virtual {p0}, Ld6/k;->Jn()Ljava/io/File;
+
+    move-result-object v6
+
+    invoke-static {v5, v6, v2}, Lz6/a;->a(Landroid/content/Context;Ljava/io/File;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_2
 
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "ambilight"
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    sget-object v5, Ljava/io/File;->separator:Ljava/lang/String;
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v7, "ambilight_parameter.xml"
-
-    invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    if-eqz v1, :cond_2
-
-    const-string v8, "zircon"
-
-    invoke-virtual {v1, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v8
-
-    if-eqz v8, :cond_2
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v8, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, "mialgo_ambilight_ce623b7dd8f8f92ae690a9a38057e2b5.cache"
-
-    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    new-instance v9, Ljava/lang/StringBuilder;
-
-    invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Lcom/android/camera/CameraAppImpl;->i()Landroid/content/Context;
-
-    move-result-object v10
-
-    invoke-virtual {v10}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
-
-    move-result-object v10
-
-    invoke-virtual {v10}, Ljava/io/File;->getParent()Ljava/lang/String;
-
-    move-result-object v10
-
-    invoke-virtual {v9, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v9, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v9}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v9, Ljava/io/File;
-
-    invoke-direct {v9, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v9}, Ljava/io/File;->exists()Z
-
-    move-result v1
-
-    if-nez v1, :cond_2
-
-    const-string v1, "mialgo_ambilight cache is currently being copied."
-
-    new-array v6, v6, [Ljava/lang/Object;
-
-    invoke-static {v3, v1, v6}, Lcom/android/camera/log/Log;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    invoke-static {}, Lcom/android/camera/CameraAppImpl;->i()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-static {v1, v9, v8}, Lz6/a;->a(Landroid/content/Context;Ljava/io/File;Ljava/lang/String;)Z
-
-    :cond_2
-    invoke-static {}, Lcom/android/camera/CameraAppImpl;->i()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Ld6/k;->Jn()Ljava/io/File;
-
-    move-result-object v3
-
-    invoke-static {v1, v3, v2}, Lz6/a;->a(Landroid/content/Context;Ljava/io/File;Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_3
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2563,14 +2464,14 @@
 
     invoke-static {v2, v3, v1}, Lz6/a;->a(Landroid/content/Context;Ljava/io/File;Ljava/lang/String;)Z
 
-    :cond_3
+    :cond_2
     new-instance v1, Lcom/android/camera/ambilight/AmbilightEngine;
 
     invoke-direct {v1}, Lcom/android/camera/ambilight/AmbilightEngine;-><init>()V
 
     iput-object v1, p0, Ld6/k;->p8:Lcom/android/camera/ambilight/AmbilightEngine;
 
-    :cond_4
+    :cond_3
     iget v1, v0, Lcom/android/camera/b3;->a:I
 
     iput v1, p0, Ld6/k;->o9:I

@@ -157,9 +157,9 @@
 .method public static l(Landroid/app/Application;)V
     .locals 3
 
-    const-string v0, "5.1.001030.3"
+    const-string v0, "5.1.001120.8"
 
-    const v1, 0x1e6623bf
+    const v1, 0x1e662748
 
     const/4 v2, 0x0
 

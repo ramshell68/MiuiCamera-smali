@@ -142,7 +142,7 @@
     .line 7
     iput p1, p0, Lcom/android/camera/ui/ToggleSwitch;->d:I
 
-    const/high16 p1, 0x4d000000    # 1.3421773E8f
+    const/high16 p1, 0x4d000000    # 1.34217728E8f
 
     .line 8
     iput p1, p0, Lcom/android/camera/ui/ToggleSwitch;->e:I
@@ -278,7 +278,7 @@
 
     const/16 v2, 0xd
 
-    const/high16 v3, 0x4d000000    # 1.3421773E8f
+    const/high16 v3, 0x4d000000    # 1.34217728E8f
 
     .line 24
     invoke-virtual {p1, v2, v3}, Landroid/content/res/TypedArray;->getColor(II)I

@@ -677,7 +677,7 @@
 
     move-result-object p5
 
-    invoke-virtual {p5}, Lub/c;->Xb()Z
+    invoke-virtual {p5}, Lub/c;->Yb()Z
 
     move-result p5
 

@@ -2194,7 +2194,7 @@
     :goto_1
     if-eqz v4, :cond_2
 
-    const v6, 0x4d444444    # 2.0580051E8f
+    const v6, 0x4d444444    # 2.05800512E8f
 
     goto :goto_2
 
@@ -3441,7 +3441,7 @@
     :goto_1
     if-eqz v1, :cond_2
 
-    const v3, 0x4d444444    # 2.0580051E8f
+    const v3, 0x4d444444    # 2.05800512E8f
 
     goto :goto_2
 

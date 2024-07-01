@@ -5697,7 +5697,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lub/c;->cc()Ljava/lang/Boolean;
+    invoke-virtual {v2}, Lub/c;->dc()Ljava/lang/Boolean;
 
     move-result-object v2
 
@@ -5711,7 +5711,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lub/c;->dc()Ljava/lang/Boolean;
+    invoke-virtual {v2}, Lub/c;->ec()Ljava/lang/Boolean;
 
     move-result-object v2
 

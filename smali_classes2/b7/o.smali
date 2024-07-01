@@ -1826,7 +1826,7 @@
 
     move-result-object v0
 
-    const-string v1, "5.1.001030.3"
+    const-string v1, "5.1.001120.8"
 
     invoke-virtual {v0, v1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 

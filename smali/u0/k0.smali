@@ -327,7 +327,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lub/c;->Fb()Z
+    invoke-virtual {v2}, Lub/c;->Gb()Z
 
     move-result v2
 
@@ -337,7 +337,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lub/c;->Gb()Z
+    invoke-virtual {v2}, Lub/c;->Hb()Z
 
     move-result v2
 

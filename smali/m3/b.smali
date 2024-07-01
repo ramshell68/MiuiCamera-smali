@@ -194,7 +194,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lub/c;->Rb()Z
+    invoke-virtual {p1}, Lub/c;->Sb()Z
 
     move-result p1
 

@@ -475,11 +475,7 @@
 
     if-eqz v0, :cond_c
 
-    invoke-virtual {v3}, Landroid/app/Activity;->getFilesDir()Ljava/io/File;
-
-    move-result-object v0
-
-    invoke-static {v0, v6}, Lcom/android/camera/v5;->w(Ljava/io/File;Landroid/content/ContentResolver;)Lcom/android/camera/v5;
+    invoke-static {v3, v6}, Lcom/android/camera/v5;->w(Landroid/content/Context;Landroid/content/ContentResolver;)Lcom/android/camera/v5;
 
     move-result-object v0
 

@@ -217,7 +217,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v8}, Lub/c;->Tb()Z
+    invoke-virtual {v8}, Lub/c;->Ub()Z
 
     move-result v8
 

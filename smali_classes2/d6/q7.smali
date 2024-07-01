@@ -3253,7 +3253,7 @@
 .end method
 
 .method public final Nq()Z
-    .locals 7
+    .locals 8
 
     invoke-static {}, Lub/c;->r2()Lub/c;
 
@@ -3291,92 +3291,127 @@
     move v0, v2
 
     :goto_0
-    iget-object v3, p0, Ld6/i6;->p7:Ls6/x0;
+    invoke-static {}, Lub/c;->r2()Lub/c;
 
-    invoke-virtual {v3}, Ls6/x0;->t()Z
+    move-result-object v3
+
+    invoke-virtual {v3}, Lub/c;->vb()Z
 
     move-result v3
 
-    iget-object v4, p0, Ld6/i6;->p7:Ls6/x0;
+    if-eqz v3, :cond_1
 
-    invoke-virtual {v4}, Ls6/x0;->v()Z
+    invoke-virtual {p0}, Ld6/i6;->E9()Z
 
-    move-result v4
+    move-result v3
 
-    invoke-static {}, Lcom/android/camera/a3;->u4()Z
+    if-nez v3, :cond_1
 
-    move-result v5
+    iget v3, p0, Ld6/j0;->a:I
 
-    if-nez v5, :cond_2
+    invoke-static {v3}, Lcom/android/camera/a3;->v3(I)Z
 
-    invoke-static {}, Lcom/android/camera/a3;->w4()Z
+    move-result v3
 
-    move-result v5
+    if-nez v3, :cond_1
 
-    if-nez v5, :cond_2
-
-    invoke-static {}, Lcom/android/camera/a3;->v4()Z
-
-    move-result v5
-
-    if-nez v5, :cond_2
-
-    invoke-static {}, Lcom/android/camera/a3;->T6()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_1
+    move v3, v1
 
     goto :goto_1
 
     :cond_1
-    move v5, v2
+    move v3, v2
+
+    :goto_1
+    iget-object v4, p0, Ld6/i6;->p7:Ls6/x0;
+
+    invoke-virtual {v4}, Ls6/x0;->t()Z
+
+    move-result v4
+
+    iget-object v5, p0, Ld6/i6;->p7:Ls6/x0;
+
+    invoke-virtual {v5}, Ls6/x0;->v()Z
+
+    move-result v5
+
+    invoke-static {}, Lcom/android/camera/a3;->u4()Z
+
+    move-result v6
+
+    if-nez v6, :cond_3
+
+    invoke-static {}, Lcom/android/camera/a3;->w4()Z
+
+    move-result v6
+
+    if-nez v6, :cond_3
+
+    invoke-static {}, Lcom/android/camera/a3;->v4()Z
+
+    move-result v6
+
+    if-nez v6, :cond_3
+
+    invoke-static {}, Lcom/android/camera/a3;->T6()Z
+
+    move-result v6
+
+    if-eqz v6, :cond_2
 
     goto :goto_2
 
     :cond_2
-    :goto_1
-    move v5, v1
-
-    :goto_2
-    invoke-static {}, Lub/f;->c()Z
-
-    move-result v6
-
-    if-eqz v6, :cond_5
-
-    if-nez v5, :cond_4
-
-    if-eqz v0, :cond_3
-
-    if-nez v3, :cond_4
-
-    if-eqz v4, :cond_3
+    move v6, v2
 
     goto :goto_3
 
     :cond_3
-    move v1, v2
+    :goto_2
+    move v6, v1
+
+    :goto_3
+    invoke-static {}, Lub/f;->c()Z
+
+    move-result v7
+
+    if-eqz v7, :cond_7
+
+    if-nez v6, :cond_6
+
+    if-eqz v0, :cond_4
+
+    if-nez v4, :cond_6
+
+    if-nez v5, :cond_6
 
     :cond_4
-    :goto_3
-    return v1
+    if-eqz v3, :cond_5
+
+    goto :goto_4
 
     :cond_5
-    if-eqz v5, :cond_6
+    move v1, v2
+
+    :cond_6
+    :goto_4
+    return v1
+
+    :cond_7
+    if-eqz v6, :cond_8
 
     invoke-static {}, Lub/c;->r2()Lub/c;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {v5}, Lub/c;->I9()Z
+    invoke-virtual {v6}, Lub/c;->I9()Z
 
-    move-result v5
+    move-result v6
 
-    if-eqz v5, :cond_9
+    if-eqz v6, :cond_c
 
-    :cond_6
-    if-eqz v0, :cond_8
+    :cond_8
+    if-eqz v0, :cond_a
 
     iget p0, p0, Ld6/j0;->a:I
 
@@ -3384,20 +3419,23 @@
 
     move-result p0
 
-    if-eqz p0, :cond_7
+    if-eqz p0, :cond_9
 
-    if-nez v3, :cond_9
-
-    :cond_7
-    if-eqz v4, :cond_8
-
-    goto :goto_4
-
-    :cond_8
-    move v1, v2
+    if-nez v4, :cond_c
 
     :cond_9
-    :goto_4
+    if-nez v5, :cond_c
+
+    :cond_a
+    if-eqz v3, :cond_b
+
+    goto :goto_5
+
+    :cond_b
+    move v1, v2
+
+    :cond_c
+    :goto_5
     return v1
 .end method
 

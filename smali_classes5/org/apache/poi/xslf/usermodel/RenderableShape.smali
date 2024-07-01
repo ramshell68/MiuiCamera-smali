@@ -742,9 +742,9 @@
 
     invoke-static {v2, p1, p2, p3}, Lorg/apache/poi/xslf/usermodel/RenderableShape;->createRadialGradientPaint(Lorg/openxmlformats/schemas/drawingml/x2006/main/CTGradientFillProperties;Ljava/awt/geom/Rectangle2D;Lorg/apache/poi/xslf/usermodel/XSLFTheme;Lorg/openxmlformats/schemas/drawingml/x2006/main/CTSchemeColor;)Ljava/awt/Paint;
 
-    move-result-object p0
+    const/4 p0, 0x0
 
-    return-object p0
+    throw p0
 .end method
 
 

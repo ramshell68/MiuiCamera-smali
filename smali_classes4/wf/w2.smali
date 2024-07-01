@@ -7292,7 +7292,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lub/c;->Yb()Z
+    invoke-virtual {v0}, Lub/c;->Zb()Z
 
     move-result v0
 

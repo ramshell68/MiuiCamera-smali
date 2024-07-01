@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA-256-Digest-Manifest: AecFKBh+3lHo6AQE48IfUtPEYZeQQ5mOk/amOXDR+W4=
+SHA-256-Digest-Manifest: laQjxLh5Nz+WGqSWRk1N2j0mZ8YN3up+/Yfu2BduxfM=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
-SHA-256-Digest: +YhndjoI7wb5C2PYl1rPgxY7g4RIn8mgx7CJ2X8Ca6o=
+SHA-256-Digest: JV4hW8eqGhWDX3Nn4GUlkTaF3mVFPT3eihq8BLAu52I=
 
 Name: IDMSecurityManagerProto.proto
 SHA-256-Digest: o9CCEtqSye13MyjcBgTg4zdazk3rOTHV4ZaJajrO9zM=
@@ -174,10 +174,6 @@ SHA-256-Digest: Dmnlddwp+/4T6jG5mialtC0k73id3z/Lfta+T8yt1Io=
 
 Name: assets/ambilight/surya/ambilight_parameter.xml
 SHA-256-Digest: 3TCe1wNxvWEZoNq0/iuUB7Hmp/hEkOe9ht2dPyROxck=
-
-Name: assets/ambilight/zircon/mialgo_ambilight_ce623b7dd8f8f92ae690a9a
- 38057e2b5.cache
-SHA-256-Digest: oaU5+RLZTvtwlK9ulSbHyHmGPUpLBXnIfYiOyDFh8Es=
 
 Name: assets/authpack/authpack.bin
 SHA-256-Digest: Iq+5fCCtgH7gNM34bCsLP1Hrcgl8vlqsSLdmxyVSEYA=
@@ -404,25 +400,25 @@ Name: barcode-scanning.properties
 SHA-256-Digest: 3SsbDvFqzFDaVNSVAquiHzwuJKCHa0WUtaOrA+SG2dw=
 
 Name: classes.dex
-SHA-256-Digest: ViNZ+GeRNdBuqKpjmxDrucDnwZiWYdNVlpVGPFwik/I=
+SHA-256-Digest: CxZShU1xOq+29KoRRIBTZQAOqfqI2YH2zaNMgUEp+S8=
 
 Name: classes2.dex
-SHA-256-Digest: v9/v08vcitegZ6hw/I/HQMiCJ6eshRwav2sW6MHNsjM=
+SHA-256-Digest: a1ITGZ+JEese+k8VM4TXvprQCrx0StUJ3tuSTBKeGkA=
 
 Name: classes3.dex
-SHA-256-Digest: /7BxLvdNTGVtseJksIs+vdCDNXlPIcam4wsZQbspSeQ=
+SHA-256-Digest: NhppcOAX+2wRlsfygpX5JCbgRbUgaK51A/JFbU3DqNM=
 
 Name: classes4.dex
-SHA-256-Digest: oxr35lxoz2GiEAzHQPeHh7eIybYfjaKnv7ec4T8NJME=
+SHA-256-Digest: TNb6jp7KlDDK88sQMFiOmaIqXjn/sAiVJ+u/7d7e768=
 
 Name: classes5.dex
-SHA-256-Digest: 1Ud9K7EFSIWeVnBLC7996Nptqykd30IL67TX/gGD9jo=
+SHA-256-Digest: b/K7f080nXuUNF+CdtueGlTZxPzWM3pWTiFCMhaWssE=
 
 Name: classes6.dex
-SHA-256-Digest: c1/nlX/DasPcVvMFe2iWLdD4tB0y3K77WQvMR5nttxk=
+SHA-256-Digest: /DmS9OssOmXtaGpeWvjfVcYxU8cgvDjWnEKE8wK1/Vo=
 
 Name: classes7.dex
-SHA-256-Digest: 9w+RTkT5pUxi399gydYJpZMOxV3C3ZAJOq0iycXumls=
+SHA-256-Digest: Z5SYsA67eWevZgkD/dEzPFpNNDibK0VxBHOt6qesowM=
 
 Name: client_analytics.proto
 SHA-256-Digest: EsiOhXZ9ARjm/oKvt02rDTapjzIdPYgYWzazsNC7GXU=
@@ -19273,7 +19269,7 @@ Name: res/zyo.xml
 SHA-256-Digest: qrLTmt3cdn158TINRvkLxW57B1fUd+R3c8KqPKcm9JQ=
 
 Name: resources.arsc
-SHA-256-Digest: XZuvg1Twz88A0TFxY1lCgQRqYT+XxjeIyb+R7qqRP+s=
+SHA-256-Digest: +71GcobgIERIIKmQT1RSHAvVyR3L9DQjZ+Q/27tArqY=
 
 Name: schemaorg_apache_xmlbeans/attribute/http_3A_2F_2Fwww_2Ew3_2Eorg_
  2FXML_2F1998_2Fnamespace/base.xsb

@@ -1016,7 +1016,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lub/c;->Nb()Z
+    invoke-virtual {v2}, Lub/c;->Ob()Z
 
     move-result v2
 
@@ -1481,7 +1481,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lub/c;->Fb()Z
+    invoke-virtual {p3}, Lub/c;->Gb()Z
 
     move-result p3
 
@@ -1498,7 +1498,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lub/c;->Nb()Z
+    invoke-virtual {p3}, Lub/c;->Ob()Z
 
     move-result p3
 
@@ -1899,7 +1899,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lub/c;->Fb()Z
+    invoke-virtual {p3}, Lub/c;->Gb()Z
 
     move-result p3
 
@@ -1916,7 +1916,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lub/c;->Nb()Z
+    invoke-virtual {p3}, Lub/c;->Ob()Z
 
     move-result p3
 
@@ -2296,7 +2296,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lub/c;->Fb()Z
+    invoke-virtual {p3}, Lub/c;->Gb()Z
 
     move-result p3
 
@@ -2313,7 +2313,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p3}, Lub/c;->Nb()Z
+    invoke-virtual {p3}, Lub/c;->Ob()Z
 
     move-result p3
 
@@ -3301,7 +3301,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lub/c;->Tb()Z
+    invoke-virtual {p2}, Lub/c;->Ub()Z
 
     move-result p2
 

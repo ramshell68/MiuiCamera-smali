@@ -1538,7 +1538,7 @@
     :goto_1
     if-eqz v2, :cond_2
 
-    const v7, 0x4d444444    # 2.0580051E8f
+    const v7, 0x4d444444    # 2.05800512E8f
 
     goto :goto_2
 
@@ -3689,7 +3689,7 @@
     :goto_1
     if-eqz p0, :cond_3
 
-    const v2, 0x4d444444    # 2.0580051E8f
+    const v2, 0x4d444444    # 2.05800512E8f
 
     goto :goto_2
 

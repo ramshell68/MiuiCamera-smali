@@ -913,7 +913,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lub/c;->ac()Z
+    invoke-virtual {v1}, Lub/c;->bc()Z
 
     move-result v1
 

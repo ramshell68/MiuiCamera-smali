@@ -1136,13 +1136,9 @@
 
     move-result-object p0
 
-    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
-
-    move-result-object p0
-
     const/4 v1, 0x0
 
-    invoke-static {p0, v1}, Lcom/android/camera/v5;->w(Ljava/io/File;Landroid/content/ContentResolver;)Lcom/android/camera/v5;
+    invoke-static {p0, v1}, Lcom/android/camera/v5;->w(Landroid/content/Context;Landroid/content/ContentResolver;)Lcom/android/camera/v5;
 
     move-result-object p0
 

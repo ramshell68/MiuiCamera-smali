@@ -108,6 +108,11 @@
 
     move-result-object p1
 
+    if-nez p1, :cond_0
+
+    return-void
+
+    :cond_0
     invoke-virtual {p1}, Lmiuix/animation/listener/UpdateInfo;->getFloatValue()F
 
     move-result p1

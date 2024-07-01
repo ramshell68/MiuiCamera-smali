@@ -51,15 +51,25 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lmiuix/animation/listener/UpdateInfo;->getFloatValue()F
+    if-nez p1, :cond_0
 
-    move-result p1
+    return-void
 
+    :cond_0
     const-string v0, "mode_margin"
 
     invoke-static {p2, v0}, Lmiuix/animation/listener/UpdateInfo;->findByName(Ljava/util/Collection;Ljava/lang/String;)Lmiuix/animation/listener/UpdateInfo;
 
     move-result-object p2
+
+    if-nez p2, :cond_1
+
+    return-void
+
+    :cond_1
+    invoke-virtual {p1}, Lmiuix/animation/listener/UpdateInfo;->getFloatValue()F
+
+    move-result p1
 
     invoke-virtual {p2}, Lmiuix/animation/listener/UpdateInfo;->getIntValue()I
 
@@ -69,7 +79,7 @@
 
     iget-object v1, v0, Lcom/android/camera/fragment/mode/more/FragmentMoreModePopup;->o:[F
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_2
 
     const/4 v2, 0x4
 
@@ -91,7 +101,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    :cond_0
+    :cond_2
     iget-object p1, p0, Lcom/android/camera/fragment/mode/more/FragmentMoreModePopup$e;->a:Lcom/android/camera/fragment/mode/more/FragmentMoreModePopup;
 
     invoke-static {p1}, Lcom/android/camera/fragment/mode/more/FragmentMoreModePopup;->xk(Lcom/android/camera/fragment/mode/more/FragmentMoreModePopup;)Landroid/view/View;

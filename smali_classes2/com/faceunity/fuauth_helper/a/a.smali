@@ -1738,7 +1738,7 @@
 
     move-result v14
 
-    const v15, 0x4e4d7995    # 8.618243E8f
+    const v15, 0x4e4d7995    # 8.6182432E8f
 
     if-eq v14, v15, :cond_3d
 
@@ -12980,7 +12980,7 @@
 
     move-result v3
 
-    const v13, 0x4daaf2ae    # 3.5850387E8f
+    const v13, 0x4daaf2ae    # 3.58503872E8f
 
     if-eq v3, v13, :cond_1e0
 
@@ -13946,7 +13946,7 @@
 
     move-result v3
 
-    const v13, 0x4e5a568d    # 9.157763E8f
+    const v13, 0x4e5a568d    # 9.1577632E8f
 
     if-eq v3, v13, :cond_204
 
@@ -15170,7 +15170,7 @@
 
     move-result v3
 
-    const v13, 0x4c970f88    # 7.91993E7f
+    const v13, 0x4c970f88    # 7.9199296E7f
 
     if-eq v3, v13, :cond_232
 
@@ -15920,7 +15920,7 @@
 
     move-result v3
 
-    const v13, 0x4cb49e88    # 9.469651E7f
+    const v13, 0x4cb49e88    # 9.4696512E7f
 
     if-eq v3, v13, :cond_24e
 
@@ -18008,7 +18008,7 @@
 
     move-result v3
 
-    const v13, 0x4cebfa47    # 1.2372025E8f
+    const v13, 0x4cebfa47    # 1.23720248E8f
 
     if-eq v3, v13, :cond_29c
 
@@ -19739,7 +19739,7 @@
 
     move-result v3
 
-    const v13, 0x4e56e1f3    # 9.01283E8f
+    const v13, 0x4e56e1f3    # 9.0128301E8f
 
     if-eq v3, v13, :cond_2dc
 
@@ -30448,7 +30448,7 @@
 
     move-result v3
 
-    const v13, 0x4e39018c    # 7.759716E8f
+    const v13, 0x4e39018c    # 7.7597158E8f
 
     if-eq v3, v13, :cond_46a
 
@@ -32972,7 +32972,7 @@
 
     move-result v3
 
-    const v10, -0x21d96c90    # -3.0007651E18f
+    const v10, -0x21d96c90    # -3.00076514E18f
 
     if-eq v3, v10, :cond_4c8
 
@@ -34300,7 +34300,7 @@
 
     move-result v3
 
-    const v10, 0x4de16631    # 4.7269635E8f
+    const v10, 0x4de16631    # 4.72696352E8f
 
     if-eq v3, v10, :cond_4fa
 
@@ -36093,7 +36093,7 @@
 
     move-result v3
 
-    const v10, 0x4e204576    # 6.722267E8f
+    const v10, 0x4e204576    # 6.7222669E8f
 
     if-eq v3, v10, :cond_53d
 
@@ -36989,7 +36989,7 @@
 
     move-result v3
 
-    const v10, 0x4d370b0d    # 1.9193467E8f
+    const v10, 0x4d370b0d    # 1.91934672E8f
 
     if-eq v3, v10, :cond_55e
 
@@ -39638,7 +39638,7 @@
 
     move-result v3
 
-    const v7, 0x4ebfd1b4    # 1.6090957E9f
+    const v7, 0x4ebfd1b4    # 1.60909568E9f
 
     if-eq v3, v7, :cond_5c1
 

@@ -4039,7 +4039,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "onResume - version: 5.1.001030.3"
+    const-string v2, "onResume - version: 5.1.001120.8"
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

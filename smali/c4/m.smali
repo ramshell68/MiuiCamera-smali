@@ -964,7 +964,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lub/c;->Wb()Z
+    invoke-virtual {p1}, Lub/c;->Xb()Z
 
     move-result p1
 

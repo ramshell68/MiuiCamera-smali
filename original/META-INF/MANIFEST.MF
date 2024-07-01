@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 
 Name: AndroidManifest.xml
-SHA-256-Digest: VcOjYk3TINh2vgfHhZWnokT+lO6wMmsUEUhC2V2Pyvk=
+SHA-256-Digest: +P7a/IPiqqUIzPzFUm85I3RTp1esD3vJkyaTU8NEUzU=
 
 Name: IDMSecurityManagerProto.proto
 SHA-256-Digest: TTNIaaQxXVjx+B51fpepNUg9EUkHpKplM1HD2KU4Yxk=
@@ -171,10 +171,6 @@ SHA-256-Digest: xWLZSdpvnKFTBV8dt20k0ttE5hJtKadNEQOENLxGM7w=
 
 Name: assets/ambilight/surya/ambilight_parameter.xml
 SHA-256-Digest: 1leigKjdvnV4Obzw4EndZArTBJWcabhxt72HSli20l0=
-
-Name: assets/ambilight/zircon/mialgo_ambilight_ce623b7dd8f8f92ae690a9a
- 38057e2b5.cache
-SHA-256-Digest: q493X69vTrk8aUf8BEiAwZTt8G2G77kHjOt6L1QIjVQ=
 
 Name: assets/authpack/authpack.bin
 SHA-256-Digest: 2lXpKX/IMRT/zG9qG1rbxNd99Yiw8pbpMYVJRTZhxyc=
@@ -401,25 +397,25 @@ Name: barcode-scanning.properties
 SHA-256-Digest: QIZEOjbCm3TrUHbeDr7OgO9Qy/Ktl6yenrsvJmEUEWo=
 
 Name: classes.dex
-SHA-256-Digest: 7MmGctQcP0sl/W7SyA2QzbdYZGrT1iq43XKmqfEC66Y=
+SHA-256-Digest: uB0Ywac/+8lZM9MkRE+dTn8eskDaVeoEV3Bbdq/6Rjw=
 
 Name: classes2.dex
-SHA-256-Digest: mQDeTaZuXgYrOcWl0OD81xFXGxLgZ0syrFJD/4HQujw=
+SHA-256-Digest: JuRGeVKH4pXB9OZdc3rXXOUw8f5rcL23YwEcVKGz8ts=
 
 Name: classes3.dex
-SHA-256-Digest: DBzk7NMUxpLWl990379j1yuf2B6woVnnqJSrI96+R+0=
+SHA-256-Digest: xHGRzaRjT0z1N+qT5OQSJVQtZAbsrQyIL+XeaZI9tkY=
 
 Name: classes4.dex
-SHA-256-Digest: A/WHtg/GZr0ClzbZR92RHNr/ZpCKEDcTF+o/0sufjzM=
+SHA-256-Digest: fw9GTfreMhO4lSwRDECwrk0uamsAGgPlp1p9HIikLD8=
 
 Name: classes5.dex
-SHA-256-Digest: 9dkTs5GHOEviQCgKEc9SA1L6EJNUxmhdeytNoDaxTaA=
+SHA-256-Digest: kaj/CxRX39OWmT6Vagspe3mRFTmIqiTgd6B/TsqoJ4g=
 
 Name: classes6.dex
-SHA-256-Digest: yueYTHi+UYDTfDYLCOzovUpRlWMqA9JMwQ8CW4ldJs8=
+SHA-256-Digest: x/EcXmaZzOrnDBSGdIcVnKEgWnAUwlRmNpHYMlKDvOg=
 
 Name: classes7.dex
-SHA-256-Digest: WnbJMk4oBKHlN2953jGgluy8bpctSi4PFFmxtj/lO8I=
+SHA-256-Digest: 6tcHZ73+Ek1nKICFNLMRsGp/cvk0unSUYage9TthKOk=
 
 Name: client_analytics.proto
 SHA-256-Digest: DHZzJ3Z3KyYFKFWPm2daSVKcrXhcQhyhG0hxebgWJhA=
@@ -19270,7 +19266,7 @@ Name: res/zyo.xml
 SHA-256-Digest: 2kieYav4WtJdxYOEekm8nbOXLG9LI7VryTNWm+H68Lg=
 
 Name: resources.arsc
-SHA-256-Digest: 7EJABTfQ5w0qWRozs0+2yAPt4Gn54LtOKomXkqxhLjw=
+SHA-256-Digest: jkxoNSRSHJ7Q9A1pn/4SEax+CFRIFH0TmmTBcJw82dY=
 
 Name: schemaorg_apache_xmlbeans/attribute/http_3A_2F_2Fwww_2Ew3_2Eorg_
  2FXML_2F1998_2Fnamespace/base.xsb
